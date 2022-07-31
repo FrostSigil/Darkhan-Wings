@@ -1,0 +1,10 @@
+{
+    "name": "Darkhan-Wings",
+    "author": "HSDN / FrostASigil",
+    "description": "",
+    "options": {
+        "niceName": "Darkhan-Wings"
+    },
+    "servers": ["https://raw.githubusercontent.com/FrostSigil/Darkhan-Wings/master/"],
+    "disableAutoUpdate": false
+}
