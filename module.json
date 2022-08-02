@@ -1,7 +1,7 @@
 {
     "name": "Darkhan-Wings",
     "author": "HSDN / FrostSigil",
-    "description": "",
+    "description": "Auto turn on darkan wings after changing location, entering/exiting the dungeon.",
     "options": {
         "niceName": "Darkhan-Wings"
     },
