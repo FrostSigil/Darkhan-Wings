@@ -8,8 +8,5 @@ Toolbox(/8) | Command description
 --- | ---
 **drk** | Module on/off
 
-![image](https://github.com/FrostSigil/picture-DW/blob/main/darkhan%20wing.png)
-# used skill
-https://teralore.com/ru/item/155555/
-https://teralore.com/ru/skill/143000160000/
+![image](https://teralore.com/items/icon_status/descentofdarkness_tex.png)
 
