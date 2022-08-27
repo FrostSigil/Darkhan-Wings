@@ -43,4 +43,21 @@ mod.game.initialize("me.abnormalities");
         )}
       }
     });
+    
+    mod.hook("S_VISIT_NEW_SECTION", 1, () => {
+        if(enabled) return;
+        if(skills.has(60401313)) {
+        if (!mod.game.me.abnormalities["97950009"]) {
+              mod.send('C_START_SKILL', 7,            
+              {"skill": {
+              "type" : 1,
+              "id": 60401313,
+              },
+          "loc": player.loc,
+          "w": player.w,
+          "unk": true,
+              }
+          )}
+        }
+      });
 }
