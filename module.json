@@ -3,7 +3,10 @@
     "author": "HSDN / FrostSigil",
     "description": "Auto turn on darkan wings after changing location, entering/exiting the dungeon.",
     "options": {
-        "niceName": "Darkhan-Wings"
+        "niceName": "Darkhan-Wings",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
     },
     "servers": ["https://raw.githubusercontent.com/FrostSigil/Darkhan-Wings/master/"],
     "disableAutoUpdate": false

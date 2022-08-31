@@ -5,10 +5,11 @@ let player = null;
 
 mod.game.initialize("me.abnormalities");
     
-    mod.command.add(["drk"], () => {
-		enabled = !enabled;
-
-		mod.command.message(`Module ${ enabled ? "disabled" : "enabled"}`);
+    mod.command.add(["drk"],  {
+        "$none"() {       
+        mod.settings.enabled = !mod.settings.enabled;
+        mod.command.message(`Module ${mod.settings.enabled ? "enabled" : "disabled" }`);
+        }
 	});
 
     mod.hook("S_SPAWN_ME", 3, event => { player = event; });
@@ -28,9 +29,9 @@ mod.game.initialize("me.abnormalities");
     });
 
     mod.hook("S_VISIT_NEW_SECTION", 1, () => {
-      if(enabled) return;
+      if(!mod.settings.enabled) return;
       if(skills.has(14300016)) {
-     if (!mod.game.me.abnormalities ["5020006"] ) {
+      if (!mod.game.me.abnormalities ["5020006"] ) {
             mod.send('C_START_SKILL', 7,            
             {"skill": {
             "type" : 1,
@@ -45,7 +46,7 @@ mod.game.initialize("me.abnormalities");
     });
     
     mod.hook("S_VISIT_NEW_SECTION", 1, () => {
-        if(enabled) return;
+        if(!mod.settings.enabled) return;
         if(skills.has(60401313)) {
         if (!mod.game.me.abnormalities["97950009"]) {
               mod.send('C_START_SKILL', 7,            
