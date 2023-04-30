@@ -1,12 +1,20 @@
-# Wings of Darkan
-Auto turn on darkan wings after changing location, entering/exiting the dungeon.
-#	Крылья Даркана
-Авто включение крыльев даркана после смены локации, входа / выхода из подземелья.
+# Darkan's Wings Autouse
+
+[EN] Auto turn on darkan wings after changing location, entering/exiting the dungeon.   
+[RU] Авто включение крыльев даркана после смены локации, входа / выхода из подземелья.
 
 ## Commands
+
 Toolbox(/8) | Command description
 --- | ---
 **drk** | Module on/off
+**drk [color]** | Set color of wings (red, green, blue, black, pink)
 
-![image](https://teralore.com/items/icon_status/descentofdarkness_tex.png)
+## Colors 
 
+Color | Description
+--- | ---
+red | ![image](https://teralore.com/items/icon_status/descentofdarkness_tex.png) Darkan's Wings
+green | ![image](https://teralore.com/items/icon_status/descentofdarkness2_tex.png) Darkan's Green Wings
+pink | ![image](https://teralore.com/items/icon_status/descentofdarkness4_tex.png) Darkan's Pink Wings
+black | ![image](https://teralore.com/items/icon_status/descentofdarkness3_tex.png) Darkan's Black Wings

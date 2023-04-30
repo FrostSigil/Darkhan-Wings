@@ -1,7 +1,8 @@
-"use strict"
+"use strict";
 
 const DefaultSettings = {
-	"enabled": true
+	enabled: true,
+	color: "red"
 };
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
@@ -17,18 +18,14 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 		}
 
 		const oldsettings = settings;
+		settings = Object.assign(DefaultSettings, {});
 
-		switch (to_ver) {
-			default:
-				settings = Object.assign(DefaultSettings, {});
-
-				for (const option in oldsettings) {
-					if (settings[option] !== undefined) {
-						settings[option] = MigrateOption(settings[option], oldsettings[option], ["gameId"]);
-					}
-				}
+		for (const option in oldsettings) {
+			if (settings[option] !== undefined) {
+				settings[option] = oldsettings[option];
+			}
 		}
 
 		return settings;
 	}
-}
+};
