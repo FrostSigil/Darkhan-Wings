@@ -16,5 +16,6 @@ Color | Description
 --- | ---
 red | ![image](https://teralore.com/items/icon_status/descentofdarkness_tex.png) Darkan's Wings
 green | ![image](https://teralore.com/items/icon_status/descentofdarkness2_tex.png) Darkan's Green Wings
-pink | ![image](https://teralore.com/items/icon_status/descentofdarkness4_tex.png) Darkan's Pink Wings
+blue | ![image](https://teralore.com/items/icon_status/descentofdarkness1_tex.png) 	Darkan's Blue Wings
 black | ![image](https://teralore.com/items/icon_status/descentofdarkness3_tex.png) Darkan's Black Wings
+pink | ![image](https://teralore.com/items/icon_status/descentofdarkness4_tex.png) Darkan's Pink Wings
