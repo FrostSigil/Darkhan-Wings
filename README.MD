@@ -19,3 +19,4 @@ green | ![image](https://teralore.com/items/icon_status/descentofdarkness2_tex.p
 blue | ![image](https://teralore.com/items/icon_status/descentofdarkness1_tex.png) 	Darkan's Blue Wings
 black | ![image](https://teralore.com/items/icon_status/descentofdarkness3_tex.png) Darkan's Black Wings
 pink | ![image](https://teralore.com/items/icon_status/descentofdarkness4_tex.png) Darkan's Pink Wings
+yellow | ![image](https://ibb.co/m6Qv8Kv) Menma's shop Wings
