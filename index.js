@@ -1,8 +1,8 @@
 module.exports = function DarkhanWing(mod) {
 	const { player } = mod.require.library;
 	const skills = new Set();
-	const abnormalWing = [97950016, 97950015, 97950014, 97950013, 97950009, 5020006, 98140055];
-	const skillsWing = { red: 60401313, blue: 60401315, green: 60401317, black: 60401319, pink: 60401321, yellow: 690034 };
+	const abnormalWing = [97950016, 97950015, 97950014, 97950013, 97950009, 5020006, 690034];
+	const skillsWing = { red: 60401313, blue: 60401315, green: 60401317, black: 60401319, pink: 60401321, yellow: 98140055 };
 
 	mod.game.initialize("me.abnormalities");
 
